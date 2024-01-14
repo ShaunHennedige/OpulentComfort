@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" data-x="html" data-x-toggle="html-overflow-hidden">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&amp;display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/vendors.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>Opulent Comfort</title>
+</head>
+
+<body>
+  <!-- cursor start -->
+  <div class="cursor js-cursor">
+    <div class="cursor__wrapper">
+      <div class="cursor__follower js-follower"></div>
+      <div class="cursor__label js-label"></div>
+      <div class="cursor__icon js-icon"></div>
+    </div>
+  </div>
+  <!-- cursor end -->
+
+  <button class="toTopButton js-top-button">
+    <i class="icon-down-arrow"></i>
+  </button>
+
+  <main>
+
+    <header class="header -type-5 js-header">
+      <div data-anim="fade delay-3" class="header__container">
+        <div class="header__left">
+
+
+          <div class="headerMenu">
+            <div class="headerMenu__item">
+              <a href="index.html">HOME</a>
+            </div>
+
+            <div class="headerMenu__item">
+              <a href="about.html">ABOUT</a>
+            </div>
+
+            <div class="headerMenu__item">
+              <a href="gallery.html">GALLERY</a>
+            </div>
+
+            <div class="headerMenu__item">
+              <a href="neighborhood.html">NEIGHBORHOOD</a>
+            </div>
+
+            <div class="headerMenu__item">
+              <a href="contact.html">CONTACT US</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="header__center">
+          <a href="index.html" class="header__logo">
+            <img src="img/general/Logo-light150.png" alt="logo icon">
+            <img src="img/general/Logo-dark150.png" alt="logo icon">
+          </a>
+        </div>
+
+        <div class="header__right">
+          <div class="header__number xl:d-none">
+            <a href="#">+94 77 393 9438</a>
+          </div>
+
+          <button class="header__menuBtn js-menu-button">
+            <i></i>
+            <span>MENU</span>
+          </button>
+
+          <button class="button -md -outline-white text-white lg:d-none" onclick="redirectToContact()">
+            Book Now
+        </button>
+        
+        <script>
+            function redirectToContact() {
+                window.location.href = "contact.html";
+            }
+        </script>
+        </div>
+      </div>
+    </header>
+
+    <section data-anim-wrap class="pageHeader -type-1">
+      <div data-anim-child="fade delay-1" class="pageHeader__image">
+        <img src="img/The Opulent Comfort/Reception-1.jpg" alt="image">
+      </div>
+
+      <div class="container">
+        <h1 data-anim-child="slide-up delay-1" class="pageHeader__title">CONTACT US</h1>
+      </div>
+    </section>
+
+    <section class="layout-pt-lg layout-pb-lg bg-dark-4">
+      <div class="container">
+        <div class="row justify-center">
+          <div class="col-lg-10">
+            <h2 class="text-center text-62 md:text-30">
+              <span class="text-accent-1">BOOK</span>
+              NOW!
+            </h2>
+          </div>
+        </div>
+
+        <div class="row justify-center pt-60 md:pt-30">
+          <div class="col-xl-6 col-lg-8 col-md-10">
+            <div class="contactForm">
+              <div class="contactForm__field">
+                <div class="contactForm__caption">Name</div>
+                <input type="text">
+              </div>
+
+              <div class="contactForm__field mt-30">
+                <div class="contactForm__caption">phone</div>
+                <input type="text">
+              </div>
+
+              <div class="contactForm__field mt-30">
+                <div class="contactForm__caption">emaıl (optıonal)</div>
+                <input type="text">
+              </div>
+
+              <div class="mt-30">
+                <button class="button -md -dark-1 bg-accent-1 text-white col-12">
+                  SEND REQUEST
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <div class="mapSection -hover bg-dark-1">
+      <img src="img/tabs/4/map.png" alt="image">
+
+      <div class="mapSection__markers">
+
+        <div class="mapSectionMarker">
+          <div data-cursor class="mapSectionMarker__dot"></div>
+
+          <div class="mapSectionMarker__hover">
+            <div>Sale office</div>
+          </div>
+        </div>
+
+        <div class="mapSectionMarker">
+          <div data-cursor class="mapSectionMarker__dot"></div>
+
+          <div class="mapSectionMarker__hover">
+            <div>London office</div>
+          </div>
+        </div>
+
+        <div class="mapSectionMarker">
+          <div data-cursor class="mapSectionMarker__dot"></div>
+
+          <div class="mapSectionMarker__hover">
+            <div>Berlin office</div>
+          </div>
+        </div>
+
+        <div class="mapSectionMarker">
+          <div data-cursor class="mapSectionMarker__dot"></div>
+
+          <div class="mapSectionMarker__hover">
+            <div>New York office</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <footer class="footer -type-1 -accent-2 bg-dark-4">
+      <div class="footer__top">
+        <div class="footer__links">
+          <a href="Index.html">HOME</a>
+          <a href="about.html">ABOUT</a>
+          <a href="gallery.html">GALLERY</a>
+          <a href="neighborhood.html">NEIGHBORHOOD</a>
+          <a href="contact.html">CONTACT US</a>
+        </div>
+
+        <div class="footer__socials">
+          <a href="https://www.facebook.com/" class="icon-facebook"></a>
+          <a href="https://www.instagram.com/" class="icon-instagram"></a>
+          <a href="https://twitter.com/" class="icon-twitter"></a>
+        </div>
+      </div>
+
+      <div class="footer__main">
+        <div class="footer__icon">
+          <a href="index.html" class="header__logo">
+            <img src="img/general/Logo-dark350.png" alt="logo icon">
+          </a>
+        </div>
+
+        <div class="footer__number">+94 77 393 9438</div>
+        <div class="footer__mainContent">
+          <h4 class="fw-500">Apartment Address</h4>
+          <h4 class="fw-500">
+            No. 16/3, Cinnamon Life Suitess,
+          </h4>
+          <h4 class="fw-500">
+            Justice Akbar Mawatha, Colombo 02, Sri Lanka.<br>
+            Opening hours: 24/7 
+          </h4>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="footer__bottom">
+          <div>© 2023 Opulent Comfort . All Right Reserved.</div>
+          <div class="md:d-none">Website by SPLINTY INC</div>
+          <div>
+            <a href="#">Terms and Conditions Apply *</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <div class="requestForm js-requestForm">
+      <div class="requestForm__overlay js-toggle-requestForm"></div>
+
+      <div class="requestForm__content">
+        <div class="requestForm__container">
+          <div class="requestForm__close js-toggle-requestForm">
+            <button>
+              <i class="icon-cross"></i>
+            </button>
+          </div>
+
+          <h3 class="requestForm__title"><span class="text-accent-1">Request</span><br> a visit</h3>
+
+          <div class="requestForm__form contactForm row y-gap-30">
+            <div class="col-12">
+              <div class="contactForm__field">
+                <div class="lh-12 fw-500 uppercase">Full name</div>
+                <input type="text">
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="contactForm__field">
+                <div class="lh-12 fw-500 uppercase">phone</div>
+                <input type="text">
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="contactForm__field">
+                <div class="lh-12 fw-500 uppercase">E-MAIL</div>
+                <input type="text">
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <div class="contactForm__field">
+                <div class="lh-12 fw-500 uppercase">DATE</div>
+                <input type="text">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="contactForm__field">
+                <div class="lh-12 fw-500 uppercase">TIME</div>
+                <input type="text">
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="contactForm__field">
+                <div class="lh-12 fw-500 uppercase">YOUR MESSAGE</div>
+                <textarea rows="3"></textarea>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="button -md -dark-1 bg-accent-1 text-white col-12">submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- JavaScript -->
+  <script src="js/vendors.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
