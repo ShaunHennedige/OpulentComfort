@@ -1,2 +1,0 @@
-# OpulentComfort
-Opulent Comfort Apartment
