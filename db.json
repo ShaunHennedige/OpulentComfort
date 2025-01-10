@@ -1,0 +1,13 @@
+{
+    "reviews": [
+      {
+        "name": "John Doe",
+        "text": "Amazing place, highly recommended!"
+      },
+      {
+        "name": "Jane Smith",
+        "text": "Had a wonderful time here, very luxurious!"
+      }
+    ]
+  }
+  
